@@ -1,0 +1,21 @@
+body {
+  background-blend-mode: soft-light, normal;
+  font-family: 'Open Sans', sans-serif;
+  transition: background 1s ease-in-out;
+}
+
+.slide {
+  color: white;
+}
+
+#bgId {
+  font-weight: bold;
+  font-size: 14vw;
+  color: white;
+  opacity: .15;
+  position: absolute;
+  transform: translateY(-50%);
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
